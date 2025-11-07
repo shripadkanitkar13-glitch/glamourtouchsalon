@@ -1,0 +1,127 @@
+/* ---------- GENERAL PAGE STYLES ---------- */
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff6f9;
+  color: #333;
+}
+
+/* ---------- HEADER ---------- */
+header {
+  background-color: #ffb6c1;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* ---------- NAVIGATION ---------- */
+nav {
+  background-color: #ffe4ec;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+nav a:hover {
+  color: #e75480;
+  border-bottom: 2px solid #e75480;
+}
+
+/* ---------- MAIN CONTENT ---------- */
+main {
+  padding: 30px;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+main img {
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* ---------- LISTS (for Services page) ---------- */
+ul {
+  list-style-type: square;
+  text-align: left;
+  display: inline-block;
+  margin-top: 20px;
+  line-height: 1.8;
+  color: #444;
+}
+
+/* ---------- CONTACT FORM ---------- */
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-width: 400px;
+  margin: 30px auto;
+}
+
+form label {
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: #e75480;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #d14970;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  background-color: #ffb6c1;
+  text-align: center;
+  padding: 15px 0;
+  color: #333;
+  margin-top: 30px;
+}
+
+/* ---------- RESPONSIVE DESIGN ---------- */
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  main img {
+    width: 100%;
+  }
+
+  form {
+    width: 90%;
+  }
+}
